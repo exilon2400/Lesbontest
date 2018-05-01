@@ -75,6 +75,8 @@
 
 	<script type="text/javascript">
 
+		var last_message = "null";
+
 		function debug(debug_str) {
 			var text = document.getElementById('text')
 			text.innerHTML = debug_str
@@ -97,14 +99,19 @@
 			document.getElementById("text").scrollBy(0,180000000);
 		}
 
+		function playNotif(id) {
+			if (id == 0) {
+				var player = document.querySelector('#audioPlayer');
+				player.play();
+			}
+		}
+
 		function sendMessage(tarea) {
 			var msg = tarea.value
 
 			if (msg === "/clear") {
 				clearMessage()
 			} else {
-				var player = document.querySelector('#audioPlayer');
-				player.play();
 				sendM(msg)
 			}
 	        tarea.value = ""
@@ -130,10 +137,19 @@
 	        window.location.replace("lib/module/clearMessage.php?user="+findGetParameter("pseudo")+"&timestamp="+timestamp);
 		}
 
+
 		function request() {
 			var xmlhttp = new XMLHttpRequest();
 	        xmlhttp.onreadystatechange = function() {
 	            if (this.readyState == 4 && this.status == 200) {
+	            	if (last_message == "null") {
+	            		last_message = this.responseText
+	            	} else  {
+						if(last_message != this.responseText) {
+							playNotif(0)
+							last_message = this.responseText
+						}
+	            	}
 	                debug(this.responseText);
 	            }
 	        }
