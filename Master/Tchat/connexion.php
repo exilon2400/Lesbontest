@@ -13,11 +13,24 @@
 		<nav class="menu">
 			<a class="link" href="connexion.php">Connexion</a>
 			<a class="link" href="inscription.php">Inscription</a>
+			<a class="link" href="tchat.php">tchat</a>
 		</nav>
 	</header>
 
 	<div class="content">
-		
+		<div class="content2"><form method="post">
+    <label>Nom d'utilisateur</label>
+    <input name="pseudo-connexion" placeholder="Votre nom d'utilisateur" type="text">
+<br>
+<br>
+    <label>Mot de passe</label>
+    <input name="password-connexion" placeholder="Votre mot de passe" type="password">
+<br>
+
+<br>
+    <input type="submit" name="send-connexion" value="Se connecter !"></p>
+</form></div>
+	</div> 
 	</div>
 </body>
 </html>

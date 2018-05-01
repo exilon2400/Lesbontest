@@ -13,11 +13,12 @@
 		<nav class="menu">
 			<a class="link" href="connexion.php">Connexion</a>
 			<a class="link" href="inscription.php">Inscription</a>
+			<a class="link" href="tchat.php">tchat</a>
 		</nav>
 	</header>
 
 	<div class="content">
-		
-	</div>
+		<div class="content3"></div>
+
 </body>
 </html>
