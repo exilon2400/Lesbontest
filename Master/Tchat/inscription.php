@@ -18,7 +18,22 @@
 	</header>
 
 	<div class="content">
-		
+		<div class="content2"><form method="post">
+    <label>Nom d'utilisateur</label>
+    <input name="pseudo-connexion" placeholder="Votre nom d'utilisateur" type="text">
+<br>
+<br>
+    <label>Mot de passe</label>
+    <input name="password-connexion" placeholder="Votre mot de passe" type="password">
+<br>
+
+<br>
+<label>adresse e-mail</label>
+    <input name="email" placeholder="Votre adresse email" type="email">
+<br>
+<br>
+    <input type="submit" name="send-connexion" value="s'inscrire !"></p>
+</form></div>
 	</div>
 </body>
 </html>

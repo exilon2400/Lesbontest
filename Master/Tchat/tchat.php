@@ -13,12 +13,12 @@
 		<nav class="menu">
 			<a class="link" href="connexion.php">Connexion</a>
 			<a class="link" href="inscription.php">Inscription</a>
-			<a class="link" href="tchat.php">tchat</a>
+			 <a class="link" href="tchat.php">tchat</a><!--fictif -->
 		</nav>
 	</header>
 
 	<div class="content">
-		<div class="content3"></div>
+		<div class="content3"><h4>menu du tchat</h4></div>
 
 </body>
 </html>
