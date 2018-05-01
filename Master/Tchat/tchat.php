@@ -19,6 +19,7 @@
 
 	<div class="content">
 		<div class="content3"><h4>menu du tchat</h4></div>
+	<div class="content5"><?php include("dev/index.php"); ?></div>
 
 </body>
 </html>

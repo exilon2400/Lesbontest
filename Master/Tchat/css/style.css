@@ -52,8 +52,9 @@ h1 {
 	transform: translateX(-50%) translateY(-50%);
 	border:1px solid #2980b9;
 	text-align: center;
-	background: url(../img/chat_surpris.jpg) no-repeat;
+	background: #353b48;
 	background-size: 100% 100%;
+	padding: 30px 10px;
 } .content2 label {
 	color: #00a8ff !important;
 } .content2 input {
@@ -68,14 +69,33 @@ h1 {
 	transform: translateX(-50%) translateY(-50%);
 	border:1px solid #2980b9;
 	text-align: center;
-	background: url(../img/chat2.png) no-repeat;
+	background: #353b48;
 	background-size: 100% 100%;
-} .content4 label {
+	padding: 10px;
+} label {
 	color: #00a8ff !important;
-} .content4 input {
+	text-align: center;
+} input {
 	color: #00a8ff !important;
-}.content4 input::placeholder {
+	width: 90%;
+	padding: 10px;
+	font-family: 18px;
+	transition: all 0.3s ease;
+} input[type=submit] {
+	text-transform: uppercase;
+} input[type=submit]:hover {
+	cursor: pointer;
+	color: #FFF !important;
+	background: #00a8ff;
+} input::placeholder {
 	color: #00a8ff !important;
+} input:hover {
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s ease;
+} input:focus {
+	color: #2db7ff !important;
+	background-color: rgba(255,255,255,0.25);
+	transition: all 0.3s ease;
 }
 .content3 {
 	background-color:#34495e;
@@ -96,4 +116,10 @@ input {
 	background: none;
 	border:1px solid #2980b9;
 	outline: none;
+}
+
+
+.content5 {
+	border:2px solid #192a56;
+	left: 0%; height: 99%; width:89.7%;
 }
