@@ -38,7 +38,7 @@ header {
 	position: fixed;
 	top: 66px; left: 0; right: 0; bottom: 0;
 	overflow-y: scroll;
-	background: #FFF;
+	background: #ecf0f1;
 }
 
 h1 {
@@ -51,6 +51,13 @@ h1 {
 	transform: translateX(-50%) translateY(-50%);
 	border:1px solid red;
 	text-align: center;
-	background: #ecf0f1;
+	background: #FFF;
 
+}
+.content3 {
+	position: absolute;
+	left: 70%;
+	border:1px solid red;
+	text-align: center;
+	height: 100%
 }
