@@ -18,7 +18,7 @@
 	</header>
 
 	<div class="content">
-		<div class="content2"><form method="post">
+		<div class="content4"><br><form method="post">
     <label>Nom d'utilisateur</label>
     <input name="pseudo-connexion" placeholder="Votre nom d'utilisateur" type="text">
 <br>
@@ -29,7 +29,7 @@
 
 <br>
     <input type="submit" name="send-connexion" value="Se connecter !"></p>
-</form></div>
+</form><br></div>
 	</div> 
 	</div>
 </body>
