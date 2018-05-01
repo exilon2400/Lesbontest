@@ -9,57 +9,57 @@
 	<title>Tchat</title>
 	<style type="text/css">
 		#text {
-			position: absolute;
-			top: 0; left: 0; right: 0; bottom: 100px;
-			background: rgba(0,0,0,0.1);
-			font-family: "Open Sans", sans-serif;
-			overflow-y: scroll;
-			background: #243342;
+			position: absolute !important;
+			top: 0; left: 0; right: 15%; bottom: 100px !important;
+			background: rgba(0,0,0,0.1) !important;
+			font-family: "Open Sans", sans-serif !important;
+			overflow-y: scroll !important;
+			background: #243342 !important;
 		}
 		.send {
-			position: absolute;
-			bottom: 0; right: 0; left: 0;
-			height: 100px;
-			font-family: "Open Sans", sans-serif;
+			position: absolute !important;
+			bottom: 0; right: 15%; left: 0 !important;
+			height: 100px !important;
+			font-family: "Open Sans", sans-serif !important;
 		} .send button {
-			position: absolute;
-			right: 0; bottom: 0;
-			height: 100%; width: 10%;
-			border: none;
-			background: #3498db;
-			color: #FFF;
-			font-family: "Open Sans", sans-serif;
-			text-transform: uppercase;
-			font-size: 20px;
-			border-top: 1px solid #ccc;
+			position: absolute !important;
+			right: 0; bottom: 0 !important;
+			height: 100%; width: 10% !important;
+			border: none !important;
+			background: #3498db !important;
+			color: #FFF !important;
+			font-family: "Open Sans", sans-serif !important;
+			text-transform: uppercase !important;
+			font-size: 20px !important;
+			border-top: 1px solid #ccc !important;
 		} .send input {
-			position: absolute;
-			left: 0; bottom: 0;
-			height: 100%; width: 90%;
-			font-family: "Open Sans", sans-serif;
-			resize: none;
-			outline: none;
-			border: none;
-			border-top: 1px solid #ccc;
-			background: #44607c;
-			color: #FFF;
-			padding: 5px;
-			font-size: 20px;
+			position: absolute !important;
+			left: 0; bottom: 0 !important;
+			height: 100%; width: 90% !important;
+			font-family: "Open Sans", sans-serif !important;
+			resize: none !important;
+			outline: none !important;
+			border: none !important;
+			border-top: 1px solid #ccc !important;
+			background: #44607c !important;
+			color: #FFF !important;
+			padding: 5px !important;
+			font-size: 20px !important;
 		} .message {
-			background: #34495e;
-			padding: 0; margin: 0;
-			padding: 10px;
+			background: #34495e !important;
+			padding: 0; margin: 0 !important;
+			padding: 10px !important;
 		} .message p {
-			padding: 0; margin: 0;
-			color: #FFF;
+			padding: 0; margin: 0 !important;
+			color: #FFF !important;
 		} .message-owner {
-			display: inline;
+			display: inline !important;
 		} .message-owner:after {
-			content: " : "
+			content: " : " !important;
 		} .message-content {
-			display: inline;
+			display: inline !important;
 		} .message-pubDate {
-			float: right;
+			float: right !important;
 		}
 	</style>
 </head>
