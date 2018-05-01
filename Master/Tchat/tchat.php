@@ -17,7 +17,7 @@
 	</header>
 
 	<div class="content">
-		
+		<div class="content2"><p>blabla</p></div>
 	</div>
 </body>
 </html>

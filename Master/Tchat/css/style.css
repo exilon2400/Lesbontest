@@ -38,8 +38,19 @@ header {
 	position: fixed;
 	top: 66px; left: 0; right: 0; bottom: 0;
 	overflow-y: scroll;
+	background: #FFF;
 }
 
 h1 {
 	text-align: center;
+}
+
+.content2 {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border:1px solid red;
+	text-align: center;
+	background: #ecf0f1;
+
 }
