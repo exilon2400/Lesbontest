@@ -93,6 +93,10 @@
 		    return result;
 		}
 
+		function scrollDown () {
+			document.getElementById("text").scrollBy(0,180000000);
+		}
+
 		function sendMessage(tarea) {
 			var msg = tarea.value
 			var preTS = Date.now().toString();
@@ -118,6 +122,7 @@
 	        }
 	        xmlhttp.open("GET", "lib/module/message.php", true);
 	        xmlhttp.send();
+	        scrollDown();
 		}
 
 		(function($) {
