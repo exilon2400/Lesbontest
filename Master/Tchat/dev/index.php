@@ -110,11 +110,13 @@
 		function sendMessage(tarea) {
 			var msg = tarea.value
 
-			if (msg === "/clear") {
-				clearMessage()
-			} else {
-				sendItsMe = true;
-				sendM(msg)
+			if (msg != "") {
+				if (msg === "/clear") {
+					clearMessage()
+				} else {
+					sendItsMe = true;
+					sendM(msg)
+				}
 			}
 	        tarea.value = ""
 		}

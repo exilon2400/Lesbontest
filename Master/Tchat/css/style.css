@@ -81,6 +81,7 @@ h1 {
 	padding: 10px;
 	font-family: 18px;
 	transition: all 0.3s ease;
+	text-align: center;
 } input[type=submit] {
 	text-transform: uppercase;
 } input[type=submit]:hover {
@@ -104,10 +105,10 @@ h1 {
 	border:1px solid #2980b9;
 	text-align: center;
 	height: 99%; width: 14.8%;
-}
-h4 {
+} .content3 h4 {
 	border:1px solid #2c3e50 ;
-	margin: 1px;
+	margin: 0px;
+	padding: 15px;
 	background-color: #2c3e50;
 	text-align: center;
 	color: rgba(255,255,255,0.8);
@@ -118,8 +119,17 @@ input {
 	outline: none;
 }
 
-
 .content5 {
 	border:2px solid #192a56;
 	left: 0%; height: 99%; width:89.7%;
+}
+
+.joueur {
+	padding: 10px; margin: 0;
+	background: rgba(255,255,255,0.1);
+} .joueur:nth-child(2n) {
+	background: rgba(255,255,255,0.15);
+} .plyname {
+	padding: 0; margin: 0;
+	color: #FFF;
 }
