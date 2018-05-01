@@ -65,7 +65,7 @@
 </head>
 <body>
 	<div id="text"></div>
-
+	<audio id="audioPlayer" src="son/send.wav"></audio>
 	<div class="send">
 		<form onsubmit="javascript:return false;" >
 			<input type="text" id="textae" autofocus>
@@ -99,7 +99,19 @@
 
 		function sendMessage(tarea) {
 			var msg = tarea.value
-			var preTS = Date.now().toString();
+
+			if (msg === "/clear") {
+				clearMessage()
+			} else {
+				var player = document.querySelector('#audioPlayer');
+				player.play();
+				sendM(msg)
+			}
+	        tarea.value = ""
+		}
+
+		function sendM(msg) {
+	        var preTS = Date.now().toString();
 			var timestamp = preTS.substring(0,10);
 			var xmlhttp = new XMLHttpRequest();
 	        xmlhttp.onreadystatechange = function() {
@@ -110,7 +122,12 @@
 	        }
 	        xmlhttp.open("GET", "lib/module/sendMessage.php?message="+msg+"&user="+findGetParameter("pseudo")+"&timestamp="+timestamp, true);
 	        xmlhttp.send();
-	        tarea.value = ""
+		}
+
+		function clearMessage() {
+	        var preTS = Date.now().toString();
+			var timestamp = preTS.substring(0,10);
+	        window.location.replace("lib/module/clearMessage.php?user="+findGetParameter("pseudo")+"&timestamp="+timestamp);
 		}
 
 		function request() {
@@ -134,8 +151,8 @@
 			})
 
 			window.onbeforeunload = function(e) {
-			  var dialogText = 'Fermeture de la page';
-			  console.log(dialogText)
+			  	var dialogText = 'Fermeture de la page';
+			  	console.log(dialogText)
 			};
 		})(jQuery)
 
