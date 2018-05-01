@@ -76,6 +76,7 @@
 	<script type="text/javascript">
 
 		var last_message = "null";
+		var sendItsMe = false;
 
 		function debug(debug_str) {
 			var text = document.getElementById('text')
@@ -112,6 +113,7 @@
 			if (msg === "/clear") {
 				clearMessage()
 			} else {
+				sendItsMe = true;
 				sendM(msg)
 			}
 	        tarea.value = ""
@@ -146,7 +148,11 @@
 	            		last_message = this.responseText
 	            	} else  {
 						if(last_message != this.responseText) {
-							playNotif(0)
+							if (!sendItsMe) {
+								playNotif(0)
+							} else {
+								sendItsMe = false;
+							}
 							last_message = this.responseText
 						}
 	            	}
