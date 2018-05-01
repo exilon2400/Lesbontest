@@ -9,7 +9,7 @@
 	<title>Tchat</title>
 	<style type="text/css">
 		#text {
-			position: fixed;
+			position: absolute;
 			top: 0; left: 0; right: 0; bottom: 100px;
 			background: rgba(0,0,0,0.1);
 			font-family: "Open Sans", sans-serif;
@@ -17,7 +17,7 @@
 			background: #243342;
 		}
 		.send {
-			position: fixed;
+			position: absolute;
 			bottom: 0; right: 0; left: 0;
 			height: 100px;
 			font-family: "Open Sans", sans-serif;
