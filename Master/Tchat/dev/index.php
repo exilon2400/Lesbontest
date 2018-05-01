@@ -68,7 +68,7 @@
 
 	<div class="send">
 		<form onsubmit="javascript:return false;" >
-			<input type="text" id="textae">
+			<input type="text" id="textae" autofocus>
 			<button onclick="sendMessage(document.getElementById('textae'))">Envoyer</button>
 		</form>
 	</div>
