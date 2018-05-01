@@ -1,0 +1,1 @@
+<?php include 'lib/master/init.php'; include 'dev/index.php'; ?>
