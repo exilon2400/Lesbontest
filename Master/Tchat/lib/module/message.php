@@ -6,7 +6,8 @@
 			<div class="message">
 				<p class="message-owner"><?php echo $messages["owner"]; ?></p>
 				<p class="message-content"><?php echo $messages["message"]; ?></p>
-				<!-- <p class="message-pubDate"><?php echo $messages["pubDate"]; ?></p> -->
+				<p class="message-pubDate"><?php echo date('d/m/Y à G:i', $messages["pubDate"]); ?></p>
+				<br style="clear: both;">
 			</div>
 		<?php }
 	} else {

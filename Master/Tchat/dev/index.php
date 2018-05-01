@@ -58,6 +58,8 @@
 			content: " : "
 		} .message-content {
 			display: inline;
+		} .message-pubDate {
+			float: right;
 		}
 	</style>
 </head>
