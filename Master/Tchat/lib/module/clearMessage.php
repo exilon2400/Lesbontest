@@ -7,6 +7,6 @@
 		$bdd->exec("INSERT INTO `messages`(`owner`, `message`, `pubDate`) VALUES ('Server','".htmlspecialchars($message)."','".htmlspecialchars($_GET["timestamp"])."')");
 		header("Location: ../../dev.php?pseudo=".htmlspecialchars($_GET["user"]));
 	} else {
-		echo "nope";
+		header("Location: ../../dev.php?pseudo=".htmlspecialchars($_GET["user"]));
 	}
 ?>
