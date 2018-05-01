@@ -45,6 +45,7 @@
 			color: #FFF !important;
 			padding: 5px !important;
 			font-size: 20px !important;
+			text-align: left !important;
 		} .message {
 			background: #34495e !important;
 			padding: 0; margin: 0 !important;

@@ -45,15 +45,7 @@
 	<title>Tchat</title>
 </head>
 <body>
-	<header>
-		<p class="title">TCHAT</p>
-		<nav class="menu">
-			<a class="link" href="connexion.php">Connexion</a>
-			<a class="link" href="inscription.php">Inscription</a>
-			<a class="link" href="tchat.php">tchat</a>
-		</nav>
-	</header>
-
+	<?php include 'lib/partials/header.php'; ?>
 	<div class="content">
 		<div class="content2">
 			<form method="post">
