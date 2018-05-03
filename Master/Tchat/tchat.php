@@ -17,7 +17,7 @@
 				<p class="plyname">ExiLon2400</p>
 			</div>
 			<div class="joueur">
-				<p class="plyname">ExiLon2400</p>
+				<p class="plyname">MettRacoon</p>
 			</div>
 			<div class="joueur">
 				<p class="plyname">ExiLon2400</p>
