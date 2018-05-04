@@ -20,7 +20,7 @@
 				<p class="plyname">MettRacoon</p>
 			</div>
 			<div class="joueur">
-				<p class="plyname">Undefined</p>
+				<p class="plyname">Faucheuze</p>
 			</div>
 		</div>
 	<div class="content5"><?php include("dev/index.php"); ?></div>
