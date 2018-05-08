@@ -132,3 +132,9 @@ input {
 	padding: 0; margin: 0;
 	color: #FFF;
 }
+.button1 {
+	border-radius: 50%;
+	border:none;
+	background-color: white;
+	cursor: pointer;
+}

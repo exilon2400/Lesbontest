@@ -43,6 +43,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="http://exilon2400.ovh/api/velocity.js"></script>
 	<title>Tchat</title>
+	<link rel="icon" type="image/png" href="img/logo.png" />
+</head>
 </head>
 <body>
 	<?php include 'lib/partials/header.php'; ?>
