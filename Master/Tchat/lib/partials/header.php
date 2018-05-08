@@ -10,6 +10,5 @@
 					<a class="link" href="deconnexion.php">Deconnexion</a>
 				<?php }
 			?>
-			
 		</nav>
 	</header>
