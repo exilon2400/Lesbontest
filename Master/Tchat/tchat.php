@@ -23,6 +23,9 @@
 			<div class="joueur">
 				<p class="plyname">Faucheuze</p>
 			</div>
+			<div class="joueur">
+				<p class="plyname">aresucit</p>
+			</div>
 		</div>
 	<div class="content5"><?php include("dev/index.php"); ?></div>
 
